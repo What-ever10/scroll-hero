@@ -32,7 +32,7 @@ const Hero = () => {
       y: -20,
     });
 
-    // 🔥 Scroll Timeline
+    //  Scroll Timeline
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: heroRef.current,
